@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<div>
 	<title>Crystal Collecter</title>
 	</div>
@@ -10,7 +11,8 @@
 </head>
 <br>
 <body id=body>
-	<!-- This is the instructions to the game -->
+	
+ <!-- This is the instructions to the game -->
 	<div class=container id=rules>
 		<p>you will be given a random number at the start of the game.</p>
 		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</p>
@@ -20,7 +22,7 @@
 	</div>
 	<br>
 	<!-- This container shouldcontains the initial Random Number at the begining of the game  -->
-	<div class=container id=firstnumber>
+	<div id=result>
 		
 	</div>
 	<br>	
@@ -37,11 +39,21 @@
 		
 	</div>
 	<br>
-	<div id=buttons>
+	<div class=butt>
+	<button class=butts>
 		<img class= altimages src="https://vignette2.wikia.nocookie.net/starwars/images/5/5f/LightsaberCrystal-SWE.png/revision/latest?cb=20160911062335">
-		<img class= images src="https://vignette2.wikia.nocookie.net/starwars/images/5/5f/LightsaberCrystal-SWE.png/revision/latest?cb=20160911062335">
+	</button>
+	<button class=butts>
+		<img 
+		class= images src="https://vignette2.wikia.nocookie.net/starwars/images/5/5f/LightsaberCrystal-SWE.png/revision/latest?cb=20160911062335">
+	</button>
+	<button class=butts>
 		<img class= altimage src="https://vignette2.wikia.nocookie.net/starwars/images/5/5f/LightsaberCrystal-SWE.png/revision/latest?cb=20160911062335">
+	</button>
+	<button class=butts>
 		<img class= imagez src="https://vignette2.wikia.nocookie.net/starwars/images/5/5f/LightsaberCrystal-SWE.png/revision/latest?cb=20160911062335">
+	</button>
 	</div>
+	<script src="assets/javascript/game.js"></script>
 </body>
 </html>
